@@ -19,6 +19,7 @@
             <img class="nav-ufo" src="ufo.svg">
           </a>
         </div>
+      
       </div>
     </nav>
     <div class="hero text-center">
@@ -26,8 +27,10 @@
       <p>The Truth is Out There</p>
     </div>
     <div class="container">
+        <a style="float:right; font-size: 30px" href="DataAnalysis.html">Visit Data Analysis Page</a>
       <div class="row margin-top-50">
-        <div class="col-md-2">
+          <button id="download-btn" style="float: right;" type="button" class="btn btn-default">Download CSV</button>
+          <div class="col-md-2">
           <aside class="filters">
             <div class="panel panel-default">
               <div class="panel-heading">Filter Search</div>
@@ -52,6 +55,8 @@
                   <!--<a id="filter-btn" type="submit" class="btn btn-default">Filter Table</a>-->
                   <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
                   <button id="reset-btn" type="button" class="btn btn-default">Reset</button>
+
+                  <!--<button onclick="exportTableToCSV('filename.csv')" class="btn btn-default">Download</button>-->
                 </form>
               </div>
             </div>
